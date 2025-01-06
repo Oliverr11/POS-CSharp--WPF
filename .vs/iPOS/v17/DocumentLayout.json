@@ -1,0 +1,369 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\testPurchase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmproductlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmproductlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmsupplier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmsupplier.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmsale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmsale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmpurchaseorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmpurchaseorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|c:\\users\\asus\\desktop\\testpurchase\\ipos\\frmmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmcategorylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcategorylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmsupplier.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmsupplier.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmcustomerlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmcustomerlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmproductlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmproductlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmsupplierlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmsupplierlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|C:\\Users\\ASUS\\Desktop\\testPurchase\\ipos\\frmemployeelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA00BD9A-B860-4033-8B01-F3FDCBE698CB}|iPOS\\iPOS.csproj|solutionrelative:ipos\\frmemployeelist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 92,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmProductList.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProductList.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmProductList.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProductList.xaml",
+              "RelativeToolTip": "iPOS\\frmProductList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:06:13.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSupplier.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplier.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmSupplier.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplier.xaml",
+              "RelativeToolTip": "iPOS\\frmSupplier.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:06:06.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSale.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSale.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmSale.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSale.xaml",
+              "RelativeToolTip": "iPOS\\frmSale.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:05:59.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmPurchaseOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmPurchaseOrder.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmPurchaseOrder.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmPurchaseOrder.xaml",
+              "RelativeToolTip": "iPOS\\frmPurchaseOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:05:48.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProduct.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmProduct.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProduct.xaml",
+              "RelativeToolTip": "iPOS\\frmProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:05:44.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmLogin.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmLogin.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmLogin.xaml",
+              "RelativeToolTip": "iPOS\\frmLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:05:41.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCategory.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategory.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmCategory.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategory.xaml",
+              "RelativeToolTip": "iPOS\\frmCategory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T07:05:18.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmMain.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmMain.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmMain.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmMain.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:13:01.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmEmployee.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmEmployee.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployee.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmEmployee.xaml.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAcwIAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:01:04.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmMain.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmMain.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmMain.xaml",
+              "RelativeToolTip": "iPOS\\frmMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T04:55:33.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmSupplier.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplier.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmSupplier.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplier.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmSupplier.xaml.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAowG4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:24:44.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmCategoryList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategoryList.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmCategoryList.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategoryList.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmCategoryList.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:19:22.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmCategory.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategory.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmCategory.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCategory.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmCategory.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:11:43.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmCustomer.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomer.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmCustomer.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomer.xaml",
+              "RelativeToolTip": "iPOS\\frmCustomer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T05:54:30.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmCustomerList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomerList.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmCustomerList.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomerList.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmCustomerList.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA1wC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:40:44.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEmployee.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployee.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmEmployee.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployee.xaml",
+              "RelativeToolTip": "iPOS\\frmEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T04:58:18.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmCustomer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomer.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmCustomer.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmCustomer.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmCustomer.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwGQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:34:38.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProduct.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProduct.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmProduct.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAA5wIMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:39:56.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmSupplierList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplierList.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmSupplierList.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmSupplierList.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmSupplierList.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwCAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:28:16.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmProductList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProductList.xaml.cs",
+              "RelativeDocumentMoniker": "iPOS\\frmProductList.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmProductList.xaml.cs",
+              "RelativeToolTip": "iPOS\\frmProductList.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAuwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:42:14.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmEmployeeList.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployeeList.xaml",
+              "RelativeDocumentMoniker": "iPOS\\frmEmployeeList.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\testPurchase\\iPOS\\frmEmployeeList.xaml",
+              "RelativeToolTip": "iPOS\\frmEmployeeList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T04:58:20.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

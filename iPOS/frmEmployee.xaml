@@ -1,0 +1,159 @@
+﻿<Window x:Class="iPOS.frmEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iPOS"
+        mc:Ignorable="d"
+                        WindowState="Maximized"
+        Title="Category" Height="1000" Width="1000">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="900" Height="900" CornerRadius="20" Background="White">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.1*"/>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Background="DarkBlue">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Employee Entry" FontSize="40" FontWeight="Bold" Foreground="White"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.33*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" Margin="30">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="0.4*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Row="0" Grid.Column="0" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Id" FontSize="25"/>
+                                    <TextBox Height="50" FontSize="35" Name="txtId" IsReadOnly="True">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="0" Grid.Column="1" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Name" FontSize="25" />
+                                    <TextBox Height="50" FontSize="35" Name="txtName">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="0" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Username" FontSize="25" />
+                                    <TextBox Height="50" FontSize="35" Name="txtUsername">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="1" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Password" FontSize="25" />
+                                    <Border CornerRadius="10" BorderBrush="Gray" BorderThickness="1">
+                                        <PasswordBox Height="50" FontSize="40" BorderBrush="White" Name="txtPassowrd"/>
+                                    </Border>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="2" Grid.Column="0" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Phone" FontSize="25"/>
+                                    <TextBox Height="50" FontSize="35"  Name="txtPhone">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="2" Grid.Column="1" Margin="10">
+                                <StackPanel>
+                                    <TextBlock Margin="0,0,0,15" Text="Salary" FontSize="25"/>
+                                    <TextBox Height="50" FontSize="35"  Name="txtSalary">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Row="1" Margin="10">
+                            <StackPanel>
+                                <TextBlock Margin="0,0,0,15" Text="Address" FontSize="25"/>
+                                <TextBox Height="85" FontSize="25"  Name="txtAddress">
+                                    <TextBox.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </TextBox.Resources>
+                                </TextBox>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="1" VerticalAlignment="Center">
+                        <StackPanel>
+                            <Button Name="btnAdd" Background="Green" Margin="10" Width="200" Height="70" Content="Add" FontSize="30" FontWeight="Bold" Foreground="White" Click="btnAdd_Click">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button Name="btnUpdate" Background="DarkBlue" Margin="10" Width="200" Height="70" Content="Update" FontSize="30"  Foreground="White" Click="btnUpdate_Click">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="btnDelete" Background="DarkBlue" Margin="10" Width="200" Height="70" Content="Delete" FontSize="30" Foreground="White" Click="btnDelete_Click">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button Name="btnBrowse" Background="DarkBlue" Margin="10" Width="200" Height="70" Content="Browse" FontSize="30" Foreground="White" Click="btnBrowse_Click">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

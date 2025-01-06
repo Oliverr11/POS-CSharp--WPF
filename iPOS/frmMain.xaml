@@ -1,0 +1,136 @@
+﻿<Window x:Class="iPOS.frmMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Background="WhiteSmoke"
+        Title="frmMain" Height="1000" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.04*"/>
+            <RowDefinition Height="0.09*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="DarkBlue">
+            <Menu Foreground="White" FontWeight="Bold" Background="DarkBlue" VerticalAlignment="Center" Name="mainMenu">
+                <MenuItem  Margin="20,0" Header="Employee" Name="frmEmployee" >
+                    <MenuItem Background="DarkBlue" Header="Manage Employee" Name="miEntryEmployee" Click="btnEmployee_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Delete Employee" Name="miDeleteEmployee" Click="miDeleteEmployee_Click" />
+                    <MenuItem Background="DarkBlue" Header="Update Employee" Name="miUpdateEmployee" Click="miUpdateEmployee_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Browse Employee" Name="miBrowseEmployee" Click="miBrowseEmployee_Click" />
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Customer" Name="miCustomer" >
+                    <MenuItem Background="DarkBlue" Header="Manage Customer" Name="miManageCustomer" Click="btnCustomer_Click" />
+                    <MenuItem Background="DarkBlue" Header="Delete Customer" Name="miDeleteCustomer" Click="miDeleteCustomer_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Update Customer" Name="miUpdateCustomer" Click="miUpdateCustomer_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Browse Customer" Name="miBrowseCustomer" Click="miBrowseCustomer_Click"/>
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Category" Name="miCategory" >
+                    <MenuItem Background="DarkBlue" Header="Manage Category" Name="miManageCategory" Click="btnCategory_Click" />
+                    <MenuItem Background="DarkBlue" Header="Delete Category" Name="miDeleteCategory" Click="miDeleteCategory_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Update Category" Name="miUpdateCategory" Click="miUpdateCategory_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Browse Category" Name="miBrowseCategory" Click="miBrowseCategory_Click" />
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Sale" Name="miSale" >
+                    <MenuItem Background="DarkBlue" Header="Manage Sale"  Click="btnSale_Click" />
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Supplier" Name="miSupplier">
+                    <MenuItem Background="DarkBlue" Header="Manage Supplier" Name="miManageSupplier" Click="btnSupplier_Click" />
+                    <MenuItem Background="DarkBlue" Header="Delete Supplier" Name="miDeleteSupplier" Click="miDeleteSupplier_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Update Supplier" Name="miUpdateSupplier" Click="miUpdateSupplier_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Browse Supplier" Name="miBrowseSupplier" Click="miBrowseSupplier_Click" />
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Product" Name="miProduct" >
+                    <MenuItem Background="DarkBlue" Header="Manage Product" Name="miManageProduct" Click="btnProduct_Click" />
+                    <MenuItem Background="DarkBlue" Header="Delete Product" Name="miDeleteProduct" Click="miDeleteProduct_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Update Product" Name="miUpdateProduct" Click="miUpdateProduct_Click"/>
+                    <MenuItem Background="DarkBlue" Header="Browse Product" Name="miBrowseProduct" Click="miBrowseProduct_Click"/>
+
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Purchase" Name="miPurchase" >
+                    <MenuItem Background="DarkBlue" Header="Manage Purchase" Name="miManagePurchase" Click="btnPurchase_Click" />
+
+                </MenuItem>
+                <MenuItem Margin="20,0" Header="Log Out" Name="miLogOut" Click="btnLogout_Click"/>
+            </Menu>
+                <Button Name="btnMiniMize" Background="White" Margin="50,0" HorizontalAlignment="Right" Width="30" Height="20" Content="-" Foreground="Black"  FontWeight="Bold" Click="btnMiniMize_Click" />
+                <Button Name="btnClose" Background="Red" Margin="10,0" HorizontalAlignment="Right" Width="30" Height="20" Content="X" Foreground="White" FontWeight="Bold" Click="btnClose_Click"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ToolBar Background="White" VerticalAlignment="Center">
+                <StackPanel >
+                    <Button x:Name="btnEmployee" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnEmployee_Click">
+                        <Image Width="50" Source="icon/Employee.png"/>
+                    </Button>
+                    <TextBlock  FontWeight="Bold" TextAlignment="Center" Text="Employee"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="btnCustomer" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnCustomer_Click">
+                        <Image Width="45" Source="icon/customer.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Customer"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="btnCategory" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnCategory_Click">
+                        <Image Width="50" Source="icon/Category.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Category"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="btnSale" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnSale_Click">
+                        <Image Width="50" Source="icon/Sale.png"/>
+                    </Button> 
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Sale"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="btnSupplier" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnSupplier_Click">
+                        <Image Width="50" Source="icon/Supplier.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Supplier"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="btnProduct" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnProduct_Click">
+                        <Image Width="50" Source="icon/product.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Product"/>
+                </StackPanel> 
+                <StackPanel>
+                    <Button Name="btnPurchase" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnPurchase_Click">
+                        <Image Width="50" Source="icon/purchase.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Purchase"/>
+                </StackPanel>      
+                <StackPanel>
+                    <Button Name="btnLogout" BorderThickness="0" Background="White" Margin="20,0"  Width="60" Height="60" Click="btnLogout_Click">
+                        <Image Width="50" Source="icon/logout.png"/>
+                    </Button>
+                    <TextBlock FontWeight="Bold" TextAlignment="Center" Text="Log Out"/>
+                </StackPanel>
+            </ToolBar>
+        </Grid>
+        <Grid Grid.Row="2" >
+            <DataGrid   x:Name="dgvProductListMain"  AutoGenerateColumns="True" IsReadOnly="True" >
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="DarkBlue" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="FontWeight" Value="Bold" />
+                        <Setter Property="FontSize" Value="25" />
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.Columns  >
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="ID" Width="0.1*" Binding="{Binding Id}"/>
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="Name" Width="0.2*"  Binding="{Binding Name}"/>
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="Category" Width="0.2*"  Binding="{Binding Category.Name}"/>
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="Unit" Width="0.2*"  Binding="{Binding Unit}"/>
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="Cost Price" Width="0.2*"  Binding="{Binding CostPrice}"/>
+                    <DataGridTextColumn FontSize="20" IsReadOnly="True" Header="Selling Price" Width="0.2*"  Binding="{Binding SellingPrice}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="iPOS.frmProductList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iPOS"
+                Title="frmProductList" Height="450" Width="800">
+    <Grid>
+        <DataGrid MouseDoubleClick="dgvProductList_MouseDoubleClick" x:Name="dgvProductList"  AutoGenerateColumns="True" IsReadOnly="True"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="0.1*" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Width="0.2*"  Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Category" Width="0.2*"  Binding="{Binding Category.Name}"/>
+                <DataGridTextColumn Header="Unit" Width="0.2*"  Binding="{Binding Unit}"/>
+                <DataGridTextColumn Header="Cost Price" Width="0.2*"  Binding="{Binding CostPrice}"/>
+                <DataGridTextColumn Header="Selling Price" Width="0.2*"  Binding="{Binding SellingPrice}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

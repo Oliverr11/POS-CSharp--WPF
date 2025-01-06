@@ -1,0 +1,262 @@
+﻿<Window x:Class="iPOS.frmSale" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iPOS"
+        mc:Ignorable="d"
+               WindowState="Maximized"
+        Background="WhiteSmoke"
+        Title="frmState" Height="1000" Width="1200">
+    <Grid Margin="20" >
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="0.04*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.10*"/>
+            <RowDefinition Height="0.01*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" VerticalAlignment="Center" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.1*"/>
+                <ColumnDefinition Width="0.1*"/>
+                <ColumnDefinition Width="0.15*"/>
+                <ColumnDefinition Width="0.15*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Id : " FontSize="25" HorizontalAlignment="Center"/>
+            <TextBox Name="txtInvoiceId" IsReadOnly="True" FontSize="25" Grid.ColumnSpan="2" Margin="89,0,0,0" Height="39" VerticalAlignment="Bottom">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBlock Grid.Column="2" Text="History Id : " FontSize="25" HorizontalAlignment="Center"/>
+            <ComboBox Grid.Column="3" Name="cmbHistoryId" FontSize="25" SelectionChanged="cmbHistoryId_SelectionChanged"/>
+            <TextBlock Grid.Column="4" Text="Customer Name " FontSize="25" HorizontalAlignment="Center" />
+            <ComboBox Grid.Column="5" Name="cmbCustomerName" FontSize="25"/>
+            <TextBlock Grid.Column="6" Text="Employee Name " FontSize="25" HorizontalAlignment="Center"/>
+            <ComboBox Grid.Column="7" Name="cmbEmployee" FontSize="25" SelectionChanged="cmbEmployee_SelectionChanged"/>
+        </Grid>
+        <Grid Grid.Row="1"   Background="White">
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border BorderBrush="Gray" BorderThickness="1">
+
+                    <Grid Grid.Column="0" Margin="10" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="0.2*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.8*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="0.3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
+                                <TextBlock Text="Product Name : " FontSize="25"/>
+                            </Grid>
+                            <Grid Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+                                <ComboBox FontSize="25" Name="cmbProductName"  SelectionChanged="cmbProductName_SelectionChanged"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">
+                                <TextBlock Text="Quantity : " FontSize="25"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+                                <TextBox FontSize="25" Name="txtQuantity" TextChanged="txtQuantity_TextChanged">
+                                    <TextBox.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </TextBox.Resources>
+                                </TextBox>
+
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="2" VerticalAlignment="Center">
+                                <TextBlock Text="Unit" FontSize="25" HorizontalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">
+                                <TextBlock Text="Selling Price : " FontSize="25"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
+                                <TextBox FontSize="25" Name="txtSellingPrice">
+                                    <TextBox.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </TextBox.Resources>
+                                </TextBox>
+                            </Grid>
+                            <Grid Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">
+                                <TextBlock Text="Total Price : " FontSize="25"/>
+                            </Grid>
+                            <Grid Grid.Row="3" Grid.Column="1" VerticalAlignment="Center">
+                                <TextBox FontSize="25" Name="txtTotalPrice">
+                                    <TextBox.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </TextBox.Resources>
+                                </TextBox>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Row="1" Margin="5">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Background="DarkBlue" Foreground="White" FontWeight="Bold" Content="New" FontSize="20" Name="btnNew" Margin="10,0" Width="100" Height="50" Click="btnNew_Click">
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                                <Button Background="DarkBlue" Foreground="White" FontWeight="Bold"  Content="Add" FontSize="20" Name="btnAdd" Margin="10,0" Width="100" Height="50" Click="btnAdd_Click">
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                                <Button Background="Red" Foreground="White" FontWeight="Bold" Content="Remove" FontSize="20" Name="btnRemove" Margin="10,0" Width="100" Height="50" Click="btnRemove_Click">
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+
+                    </Grid>
+                </Border>
+                <Grid Grid.Column="1" Background="WhiteSmoke"/>
+                <Grid Grid.Column="2">
+                    <Border BorderBrush="Gray" BorderThickness="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="0.3*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Margin="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.7*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <StackPanel HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center">
+                                        <TextBlock FontWeight="Bold" Text="Stock Remain" FontSize="25" />
+                                        <TextBlock Foreground="Blue" Text="0" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="30"/>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Total Amount : " VerticalAlignment="Center" FontSize="25"/>
+                                    <TextBox TextAlignment="Center" Grid.Row="0" Name="txtTotalAmount" Grid.Column="1" FontSize="30" Height="50">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Amount Paid : " VerticalAlignment="Center" FontSize="25"/>
+                                    <TextBox TextAlignment="Center" TextChanged="txtAmountPaid_TextChanged" Grid.Row="1" Name="txtAmountPaid" Grid.Column="1" FontSize="30" Height="50">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Balance : " VerticalAlignment="Center" FontSize="25"/>
+                                    <TextBox TextAlignment="Center" Grid.Row="2" Name="txtBalance" Grid.Column="1" FontSize="30" Height="50" HorizontalAlignment="Center" Margin="0,20,0,20" Width="160">
+                                        <TextBox.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Background="DarkBlue" Foreground="White" FontWeight="Bold" Content="New" FontSize="20" Name="btnNewSet" Margin="10,0" Width="100" Height="50" Click="btnNewSet_Click">
+                                        <Button.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </Button.Resources>
+                                    </Button>
+                                    <Button Background="DarkBlue" Foreground="White" FontWeight="Bold" Content="Update" FontSize="20" Name="btnUpdate" Margin="10,0" Width="100" Height="50">
+                                        <Button.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </Button.Resources>
+                                    </Button>
+                                    <Button Background="#7ED348" Foreground="White" FontWeight="Bold" Content="Save" FontSize="20" Name="btnSave" Margin="10,0" Width="100" Height="50" Click="btnSave_Click">
+                                        <Button.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="10"/>
+                                            </Style>
+                                        </Button.Resources>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+        <DataGrid CanUserAddRows="False" AutoGenerateColumns="False" Name="dgvSale" Grid.Row="2" Margin="0,20" SelectionChanged="dgvSale_SelectionChanged">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="DarkBlue" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="FontSize" Value="25" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns  >
+                <DataGridTextColumn Header="" Width="0.03*" />
+                <DataGridTextColumn Header="Id" Width="0.1*" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Product Name" Width="0.3*" Binding="{Binding ProductName}"/>
+                <DataGridTextColumn Header="Quantity" Width="0.2*" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Header="Unit" Width="0.2*" Binding="{Binding Unit}"/>
+                <DataGridTextColumn Header="Selling Price" Width="0.2*" Binding="{Binding SellingPrice}"/>
+                <DataGridTextColumn Header="Total Price" Width="0.2*" Binding="{Binding TotalPrice}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="3">
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBlock Text="Total Amount : " FontSize="25"/>
+                <TextBlock Foreground="Blue" Text="0" FontSize="25" Name="tbTotalAmount" Margin="90,0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
